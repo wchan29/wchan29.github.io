@@ -3,9 +3,6 @@ title: "Compact Induction Machine with 3D Printed Housing"
 excerpt: "UW-Madison Mechanical Engineering senior design project for the Grainger Engineering Design Innovation Lab."
 collection: portfolio
 image: '../images/portfolio/wempec_induction_3d/induction_machine_main.JPG'
-
-toc: true
-
 header: 
   caption: 
   cta_url:
@@ -13,6 +10,9 @@ header:
   overlay_color: #0a0a0a
   overlay_filter: rgba(240, 240, 240, 0.5)
   overlay_image: /images/portfolio/wempec_induction_3d/induction_machine_main.JPG
+
+toc: true
+toc_sticky: true
 ---
 
 <style>
@@ -35,7 +35,7 @@ figcaption {
 }
 </style>
 
-# Overview
+# 0. Overview
 
 **Team Memeber:** Anson Chan (Me), [Jon Keller](https://www.linkedin.com/in/jon-keller-34379614b/), [Steven Gerbers](https://www.linkedin.com/in/steven-gerbers-323319153/), [Nathan Seibold](https://www.linkedin.com/in/nathan-s-473093109/) 
 <br/>
@@ -44,12 +44,12 @@ figcaption {
 
 This is a design summary for a mechanical engineering senior design project aimed at creating a compact, low-voltage induction machine building kit for future use in electrical engineering courses at UW-Madison. This kit was requested by the Grainger Teaching Studio to be designed and prototyped for a new, hands-on power conversion course being offered at the university. The design summary will go through the progression and the several iterations the team created for this project.
 
-# Background 
+# 1. Background 
 As highlighted in the earlier overview section, the core objective of this project was to develop an induction motor building kit for an upcoming electrical engineering course. This course aims to challenge students in optimizing various machine parameters, encompassing factors such as pole count, winding turns, and targeted torque. Our intention is to supply the Grainger Teaching Studio with a budget-friendly prototype that would be served as a base model that student could improve/modified upon.
 
 Ultimately, the kit we designed would not only enrich the educational experience of students in this advanced course but also equip them with a hands-on experience in building motor as they transition into the industry.
 
-# So, what is an induction machine?
+# 2. What is an induction machine?
 Induction machines, also known as asynchronous machines, are one of the most widely used electrical motors in both domestic and industrial applications. About 50 percent of global power is consumed by electric machines, and over 90 percent of industrial machines are induction motors [2]. One of the main reasons it is so widely used is due to its high efficiency, which can achieve as high as 97 percent [3]. The high efficiency combined with low maintenance and self- starting properties makes the induction machine one of the most popular choices within the industry.
 
 An induction machine comprises of two main components, the stationary stator and a rotating rotor. An exploded view of a common industrial squirrel cage type induction machine is shown in figure below. The main frame, typically made from cast iron, is used to house and protect the stator and rotor from damage as well as protect the user while operating. While sometimes not necessary, fans are added to the machine to prevent the stator coils from overheating.  
@@ -69,7 +69,7 @@ The squirrel cage rotor design uses conducting bars (typically made from copper 
 []()
 <br/>
 
-# Brainstorming
+# 3. Brainstorming
 Since the kit we were designing was intended for students who will be participating in a semester-long electrical engineering course, the client has placed a strong emphasis on prioritizing manufacturability over performance. This is due to the limited time the students will have during the semester to assemble the kit. Additionally, the budget for each motor kit is firmly capped at **$100**. Together, these factors highlight the significance of manufacturability and cost-effectiveness in this project.
 
 Beyond the considerations of manufacturability and cost, a set of constraints were also provided to us for the prototype we would be building. The constraints were, 
@@ -91,7 +91,7 @@ The team believes that since the main focus of the project is on manufacturabili
 With these in mind, the manufacturability and cost were the priorities for this project, where manufacturability includes the ability to build using in-house tools and machines, ease of assembly, and repeatability/robustness of the design and process. 
 
 
-# Design
+# 4. Design
 As mentioned in the previous overview, we extensively utilized tools like JMAG Express in our design process. JMAG Express serves as a parameter-based motor design support tool, allowing users to input values such as size, input voltage, stack length, etc., and receive estimated machine characteristic results. This tool played a pivotal role in shaping our design process for the first prototype, providing essential insights and estimations.
 
 [<img src="/images/portfolio/wempec_induction_3d/jmag_design_process.png" width="1000" >](/images/portfolio/wempec_induction_3d/jmag_design_process.png)
@@ -113,10 +113,10 @@ Animations showing the assembly of the squirrial cage rotor and the overall prot
 
 [<img src="/images/portfolio/wempec_induction_3d/p1_bom.JPG" width="1000" >](/images/portfolio/wempec_induction_3d/p1_bom.JPG)
 
-# Assembly 
+# 5. Assembly 
 This section will cover the assembly procsses of the three different prototypes we came up with for this project.
 
-## First Iteration (P1)
+## 5.1 First Iteration (P1)
 
 The first task tackled was laser cutting the steel laminations for the stator and rotor. The video below provides a visual demonstration of the rotor laminations being cut using the FabLight 4500 laser cutter in the Grainger Power Electronics and Electric Machines Laboratory on campus. For context, the lamination steel we used was M19 29 gauge steel provided by the client.
 
@@ -134,7 +134,7 @@ The next task the team did was cutting the copper rotor bars in length. These ba
 After some investigations, it was determined that the problem arose from the absence of tab features being enabled in the laser cutter's settings during the cutting of the rotor laminations. During the cutting process, nitrogen gas was blasted at the cut to prevent oxidation on the cut surfaces of the steel. Due to the combination of this blasting action and the absence of tab features, the laminations experienced slight shifts with each cut. Consequently, the cuts were inconsistent, resulting in the observed misalignment on the rotor laminations.
 
 <img src="https://sendcutsend.com/wp-content/uploads/2019/06/microtabs_1024x1024-1024x594.png" width="1000" >
-#### Figure obtained from [SendCutSend.com](https://sendcutsend.com/faq/what-are-tabs-how-can-they-be-removed/)
+Figure obtained from [SendCutSend.com](https://sendcutsend.com/faq/what-are-tabs-how-can-they-be-removed/)
 <br/>
 After the team figured out the root cause of the failure, the team proceeded to re-cut the laminations with the correct tab settings. Futhermore, additional tolerancing was also allotted to the laminations to ensure the copper bars cut fit through all 43 lamination sheets. Immediate improvement was observed as the copper bars fit into the rotor.  
 
@@ -179,7 +179,7 @@ A side view showcasing the stator with the inserted coils up against a McMaster-
 [<img src="/images/portfolio/wempec_induction_3d/wempec_induction_3d_15.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/wempec_induction_3d_15.jpeg)
 <figcaption align = "center">Finished assembly of the first prototype</figcaption>
 
-## Second Iteration (P2)
+## 5.2 Second Iteration (P2)
 Based on the feedback and lessons learned from building the first prototype, we came up with several improvements we hoped to achieve for our second iteration prototype.
 
 1. Improve rotor assembly, specifically on the soldering part of the copper endplate.
@@ -215,7 +215,7 @@ Comparsion of the coil formed with the 3D printed jig and manual coil winding ma
 [<img src="/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_30.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_30.jpeg)
 
 
-### Third Iteration (Final)
+## 5.3 Third Iteration (P3)
 [<img src="/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_19.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_19.jpeg)
 
 [<img src="/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_37.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_37.jpeg)
@@ -231,21 +231,22 @@ Comparsion of the coil formed with the 3D printed jig and manual coil winding ma
 [<img src="/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_35.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/wempec_induction_3d_35.jpeg)
 
 
-# Final Showcase
+# 6. Final Showcase
 [<img src="/images/portfolio/wempec_induction_3d/final_showcase.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/final_showcase.jpeg)
 
 <br/>
-# Documents
-## CAD Files
+
+# 7. Documentation
+## 7.1 CAD Files
 For those who are interested in the design, feel free to take a look at the CAD model in the Box link below. All models were created in SolidWorks.
 
 [Download](https://uwmadison.box.com/s/1lcbk6jrjjuikrx2ef6l84odsnrkmwar){: .btn .btn--info}
 
-## Instructional Manual 
+## 7.2 Instructional Manual 
 <embed src="/files/portfolio/wempec_induction_3d/IM Instruction Manual.pdf#view=FitH" width="500" height="450" frameborder="0" type="application/pdf">
 <br>
 
-## References
+# 8. References
 <font size="3"> 
 
 [1] D. W. Knight, L. E. Carlson, and J. F. Sullivan, “Staying in engineering: Impact of a hands-on, team-based, first-year projects course on student retention,” ASEE Annu. Conf. Proc., pp. 10037–10047, 2003.

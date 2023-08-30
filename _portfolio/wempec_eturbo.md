@@ -9,6 +9,8 @@ header:
   show_overlay_excerpt: true	
   caption: "Photo credit: **NASA**"
 
+classes: wide
+
 ---
 
 # Overview

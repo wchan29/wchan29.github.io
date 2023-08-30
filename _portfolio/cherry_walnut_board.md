@@ -6,15 +6,18 @@ image: '../images/portfolio/cherry_walnut_board/board_cover.jpeg'
 header: 
   overlay_filter: rgba(240, 240, 240, 0.5)
   overlay_image: /images/gallery_cover/walnut_board_cover.jpeg
+
+toc: true
+toc_sticky: true
 ---
 
-# Overview
+# 0. Overview
 An edge-grain cutting board made out of cherry and walnut. 
 
-# Background
+# 1. Background
 A gift for my graduating friend who is obessed with cooking! Decided to take some time and do some woodworking at the machine shop on campus. Staff jokely asked if my friend cuts turkey everyday becasue of the size of the board. 
 
-# Assembly
+# 2. Assembly
 [<img src="/images/portfolio/maple_walnut_board/cutting_board_11.jpeg" width="1000" >](/images/portfolio/maple_walnut_board/cutting_board_11.jpeg){: .align-center}
 
 [<img src="/images/portfolio/maple_walnut_board/cutting_board_10.jpeg" width="1000" >](/images/portfolio/maple_walnut_board/cutting_board_10.jpeg){: .align-center}
