@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Anson Chan"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Personal Website"
 name                     : "Anson Chan"
 description              : "Anson Chan's Personal Website" 
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -59,7 +59,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
+  hide                   : true # true, false (default)
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -132,6 +132,10 @@ author:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/anson-waiyan-chan/"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-link"
+      url: "https://scholar.google.com/citations?user=z0PabdMAAAAJ&hl=en&oi=ao"
+
 
 # Site Footer
 footer:
@@ -163,6 +167,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _publications
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -314,8 +319,21 @@ defaults:
       read_time: true
       share: true
       comment: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
 
 collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+
