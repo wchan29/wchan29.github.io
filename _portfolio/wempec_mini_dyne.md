@@ -27,7 +27,10 @@ For those unfamiliar with the term dynamometer, you probably wondering, "What th
 
 [<img src="/images/portfolio/wempec_mini_dyne/Dynamometer01CJC.svg" width="1000" >](/images/portfolio/wempec_mini_dyne/Dynamometer01CJC.svg){: .align-center}
 
-A simple schematic of a dynamometer, note the machine under test is directly coupled to the load. Figure created by [SyntaxError55 at the English Wikipedia, CC BY-SA 3.0](https://commons.wikimedia.org/w/index.php?curid=5224284)
+<figcaption align = "center">
+  A simple schematic of a dynamometer, note the machine under test is directly coupled to the load. Figure taken from <a href="https://commons.wikimedia.org/w/index.php?curid=5224284">SyntaxError55 at the English Wikipedia, CC BY-SA 3.0</a>
+</figcaption>
+
 
 For those who are interested in learning more in details about the inner workings of dynamometer, I would recommend checking out the dynamometer Wikipedia page [here](https://en.wikipedia.org/wiki/Dynamometer). 
 {: .notice--primary}
@@ -70,7 +73,10 @@ For a dynamometer, shaft alignment is extremely cruical in obtaining accurate re
 
 While I was search of the optical breadboard, I came across these optical carriers and rails from OptoSigma. These optical carriers are advertised to have the ability to freely slide on the rails (see animation below) and can be locked in place, which seems to be a decent option for quickly installing/removing test motor from the dynamomter.  However, in terms of alignment between the load servo motor, manual alignment is still required.
 
-[<img  src="/images/portfolio/wempec_mini_dyne/optical_rail_animated.gif" width="1000" >](/images/portfolio/wempec_mini_dyne/optical_rail_animated.gif)
+[<img src="/images/portfolio/wempec_mini_dyne/optical_rail_animated.gif" width="1000" >](/images/portfolio/wempec_mini_dyne/optical_rail_animated.gif)
+<figcaption align = "center">
+  Animation showing linear optical rail and carriage in action
+</figcaption>
 
 
 # 5. Design
@@ -79,9 +85,18 @@ After spending some time in SolidWorks I came up with an initial design for the 
 
 The mounting bracket can also be easily removed for user to install/remove their test motor. When they need to couple back to the torque transducer, they just need to drop it on the optical rail, slide it, couple motor shaft to the coupling, tighten it and voila. Animation below shows the mounting and sliding action of the test motor using optical rail and carriage.
 [<img src="/images/portfolio/wempec_mini_dyne/dyne_setup_coupling.gif" width="1000" >](/images/portfolio/wempec_mini_dyne/dyne_setup_coupling.gif)
+<figcaption align = "center">
+  Animation demonstrating the mounting and slideing action of a test motor using optical rail and carriage
+</figcaption>
 [<img src="/images/portfolio/wempec_mini_dyne/setup_side_view_dim.PNG" width="610" >](/images/portfolio/wempec_mini_dyne/setup_side_view_dim.PNG)[<img src="/images/portfolio/wempec_mini_dyne/setup_front_view_dim.PNG" width="150" >](/images/portfolio/wempec_mini_dyne/setup_front_view_dim.PNG)
+<figcaption align = "center">
+  General dimension of the dynamomter setup
+</figcaption>
 [<img src="/images/portfolio/wempec_mini_dyne/setup_side_view.PNG" width="1000" >](/images/portfolio/wempec_mini_dyne/setup_side_view.PNG)
 [<img src="/images/portfolio/wempec_mini_dyne/dyne_setup_rotate_view.gif" width="1000" >](/images/portfolio/wempec_mini_dyne/dyne_setup_rotate_view.gif)
+<figcaption align = "center">
+  360 degree view of the overall setup
+</figcaption>
 
 ## 5.2 Enclosure
 I opted for the [**ThorLab MB3090/M - Aluminum Breadboard**](https://www.thorlabs.com/thorproduct.cfm?partnumber=MB3090/M) as the bedplate for the dynamometer setup. ThorLab also offered other bedplate options with vibration damping features. But for this prototype, I opted for the cheaper option to reduce cost. If we feel the dampening feature is needed, we can always swap it out later on. 
