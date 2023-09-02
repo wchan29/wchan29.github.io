@@ -189,6 +189,13 @@ A side view showcasing the stator with the inserted coils up against a McMaster-
 
 [<img src="/images/portfolio/wempec_induction_3d/wempec_induction_3d_15.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/wempec_induction_3d_15.jpeg)
 <figcaption align = "center">Finished assembly of the first prototype</figcaption>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BwkrmxpN5hY?si=tLX6z-gHLkeLjAuz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<figcaption align = "center">Video demonstration of the first prototype operating with the 3-phase power supply at 60Hz </figcaption>
+
+**NOTE:** :tada::zap::sparkles: **First prototype was a sucess!** :sparkles::zap::tada:
+{: .notice}
+
 ## 5.2 Second Iteration (P2)
 Based on the feedback and lessons learned from building the first prototype, we came up with several improvements we hoped to achieve for our second iteration prototype.
 
@@ -231,7 +238,7 @@ The team made several attempts to manufacture additional coils using the 3D prin
 
 [<img src="/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_26.jpg" width="1000" >](/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_26.jpg)
 <figcaption align = "center">
-  Attempt in creating the overlapping endturn patten with coils wound using the manual winding machine. As can be seen, one of the coil turns must be removed from the slot and re-inserted back in order to achieve this pattern.
+  Attempt in creating the overlapping endturn patten with coils wound using the manual winding machine. As can be seen, one of the coil sides must be removed from the slot and re-inserted back in order to achieve this pattern.
 </figcaption>
 
 [<img src="/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_28.jpg" width="1000" >](/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_28.jpg)
@@ -241,7 +248,7 @@ The team made several attempts to manufacture additional coils using the 3D prin
 
 [<img src="/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_27.jpg" width="1000" >](/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_27.jpg)
 <figcaption align = "center">
-  Side view of the finished stator. As can be seen the overall thickness of the stator assembly was dractically reduced from the stator in the initial prototype.
+  Side view of the finished stator. Overall thickness of the stator assembly was dractically reduced from the stator in the initial prototype.
 </figcaption>
 
 [<img src="/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_29.jpg" width="1000" >](/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_29.jpg)
