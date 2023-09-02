@@ -63,43 +63,74 @@ Since the kit we were designing was intended for students who will be participat
 Beyond the considerations of manufacturability and cost, a set of constraints were also provided to us for the prototype we would be building. The constraints were, 
 
 1.  The maximum stator cross-sectional dimension must be **100 mm x 100 mm** only
-2.  The voltage rating of the prototype should be capped at **15V or lower**.
+2.  The voltage rating of the prototype should be capped at **30V or lower**.
 3.  The copper slot fill factor of the prototype should be **above 30%**
 
 In addition to the specific asks from the client, for the prototype we also had to consider target values. 
 
-1. Rated Power
-2. Operating electrical frequency (directly affects mechanical speed)
-3. Number of squrrial cage bars 
-4. Number of poles
-5. Single or Double-Layer winding
+1. **Rated Power *P***
+     * The team believes that since the main focus of the project is on manufacturability rather than optimizing the machine's performance, the rated power becomes a less critical factor in shaping the machine's design. As a result, we settled on a low target rated power output of around 100W for our prototype.
+  
+2. **Number of poles *p***
+     * Once more, this is closely related to the prototype's manufacturability focus. The number of poles *p*, corresponds to the number of coil groups per phase. Therefore, in the case of a 3-phase machine with 12 stator slots, this would signify a 4-pole machine. Ideally, for ease of manufacturing the prototype, a 2-pole design might be considered, as that would only have 6 stator slots. However, opting for a 2-pole design also means a thicker stator back iron is needed to prevent magnetic saturation, which in turn poses challenges in an already constrained form-factor. Given these considerations, the team ultimately decided to adopt a 4-pole design. It's noteworthy that the industry standard for induction machines also commonly favors 4-pole designs.  
+    <br/>
+  
+     [<img src="/images/portfolio/wempec_induction_3d/back_iron_example.jpg" width="1000" >](/images/portfolio/wempec_induction_3d/back_iron_example.jpg)
+     <figcaption align = "center">
+        As an example, the back iron region of a stator core is between the red circles shown in the image
+      </figcaption>
+  
+3. **Operating electrical frequency &#969;** (directly affects mechanical speed)
+     * Client informed us that the 3-phase motor drive in the Grainger Design Lab has a range of electrical frequencies of between 50Hz and 60Hz only. Meaning, if we decided on a 4-pole design, with a 60Hz electrical frequency we would be able to achieve 1800 RPM no-load speed. 
 
-The team believes that since the main focus of the project is on manufacturability rather than optimizing the machine's performance, the rated power becomes a less critical factor in shaping the machine's design. As a result, we settled on a rated power output of 100W, indicating that the prototype would be a low power machine. Alongside this decision, the team opted for a 4-pole design for the pole count, a choice often regarded as the industry standard. Another important consideration was the rated speed. Our client informed us that the 3-phase motor drive in the Grainger Design Lab has a range of electrical frequencies between 50Hz and 60Hz, which implies that with a 4-pole design, the options are either 1700 RPM or 1800 RPM. After careful deliberation, the team selected a rated speed of 1800 RPM.
+4. **Single or Double-Layer winding**
+     * For simplicity, the team chose to implement a single-layer winding. Nevertheless, the client has expressed an interest in exploring a double-layer design if time allows.
 
-With these in mind, the manufacturability and cost were the priorities for this project, where manufacturability includes the ability to build using in-house tools and machines, ease of assembly, and repeatability/robustness of the design and process. 
-
+[<img src="/images/portfolio/wempec_induction_3d/single_double_layer.png" width="1000" >](/images/portfolio/wempec_induction_3d/single_double_layer.png)
+<figcaption align = "center">
+  Figure showing the difference between a) single and b) double layer winding design. 
+</figcaption>
 
 # 4. Design
-As mentioned in the previous overview, we extensively utilized tools like JMAG Express in our design process. JMAG Express serves as a parameter-based motor design support tool, allowing users to input values such as size, input voltage, stack length, etc., and receive estimated machine characteristic results. This tool played a pivotal role in shaping our design process for the first prototype, providing essential insights and estimations.
+As mentioned in the previous overview, we extensively utilized tools like JMAG Express in our design process. JMAG Express serves as a parameter-based motor design support tool, allowing users to input values such as motor size, input voltage, stack length, etc. JMAG Express would then use these information to analytically estimate and output the machine characteristics. This tool played a pivotal role in shaping our design process for the first prototype by providing essential insights and estimations.
 
 [<img src="/images/portfolio/wempec_induction_3d/jmag_design_process.png" width="1000" >](/images/portfolio/wempec_induction_3d/jmag_design_process.png)
+<figcaption align = "center">
+  Design process of using JMAG Express to find a suitable design for our prototype
+</figcaption>
+
+
 
 The team investigated existing induction motor building kits in the market; however, these kits are not very prevalent, and those found were either costly and included a higher percentage of pre-fabricated parts, decreasing student’s learning potential.
 
 Extensive research on induction machine designs was conducted before initiating our own design process. Our team's initial prototype design was influenced by an existing brushed DC machine from the Grainger Innovation Lab. Utilizing tools like JMAG Express, we analyzed various configurations and estimated performance.
 
+<!-- add more information starts here  -->
+
 [<img src="/images/portfolio/wempec_induction_3d/winding_diagram.png" width="800" >](/images/portfolio/wempec_induction_3d/winding_diagram.png)
+<figcaption align = "center">
+  Winding diagram for our 12-slots, 4-poles induction machine prototype
+</figcaption>
 
 [<img src="/images/portfolio/wempec_induction_3d/winding_diagram_cross_section.png" width="800" >](/images/portfolio/wempec_induction_3d/winding_diagram_cross_section.png)
-
-Animations showing the assembly of the squirrial cage rotor and the overall prototype are shown below.
-<br/>
+<figcaption align = "center">
+  Cross-sectional view of winding for our 12-slots, 4-poles induction machine prototype
+</figcaption>
 
 [<img src="/images/portfolio/wempec_induction_3d/cad_p1_rotor_animation.gif" width="1000" >](/images/portfolio/wempec_induction_3d/cad_p1_rotor_animation.gif)
+<figcaption align = "center">
+  Animation showing the assembly of the squirrial cage rotor
+</figcaption>
 
 [<img src="/images/portfolio/wempec_induction_3d/cad_p1_assembly_animation.gif" width="1000" >](/images/portfolio/wempec_induction_3d/cad_p1_assembly_animation.gif)
+<figcaption align = "center">
+  Animation showing the assembly of the entire induction machine prototype assembly
+</figcaption>
 
 [<img src="/images/portfolio/wempec_induction_3d/p1_bom.JPG" width="1000" >](/images/portfolio/wempec_induction_3d/p1_bom.JPG)
+<figcaption align = "center">
+  Bill of material for the first induction machine prototype
+</figcaption>
 
 # 5. Assembly 
 This section will cover the assembly procsses of the three different prototypes we came up with for this project.
