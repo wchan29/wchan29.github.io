@@ -193,7 +193,7 @@ A side view showcasing the stator with the inserted coils up against a McMaster-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BwkrmxpN5hY?si=tLX6z-gHLkeLjAuz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <figcaption align = "center">Video demonstration of the first prototype operating with the 3-phase power supply at 60Hz </figcaption>
 
-**NOTE:** :tada::zap::sparkles: **First prototype was a sucess!** :sparkles::zap::tada:
+**NOTE:**   :tada::zap::sparkles: **First prototype was a sucess!** :sparkles::zap::tada:
 {: .notice}
 
 ## 5.2 Second Iteration (P2)
@@ -258,6 +258,14 @@ The team made several attempts to manufacture additional coils using the 3D prin
 
 
 ## 5.3 Third Iteration (P3)
+[<img src="/images/portfolio/wempec_induction_3d/p3_lam.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/p3_lam.jpeg)
+
+[<img src="/images/portfolio/wempec_induction_3d/p3_lam_shaft.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/p3_lam_shaft.jpeg)
+
+[<img src="/images/portfolio/wempec_induction_3d/p3_rotor.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/p3_rotor.jpeg)
+
+[<img src="/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_19.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_19.jpeg)
+
 [<img src="/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_19.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_19.jpeg)
 
 [<img src="/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_37.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_37.jpeg)
