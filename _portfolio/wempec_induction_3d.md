@@ -62,9 +62,9 @@ Since the kit we were designing was intended for students who will be participat
 
 Beyond the considerations of manufacturability and cost, a set of constraints were also provided to us for the prototype we would be building. The constraints were, 
 
-1.  The maximum stator cross-sectional dimension must be **100 mm x 100 mm** only
-2.  The voltage rating of the prototype should be capped at **30V or lower**.
-3.  The copper slot fill factor of the prototype should be **above 30%**
+1.  The maximum stator cross-sectional dimension must be **100 mm x 100 mm** only, this is so the stator would fit within the existing housing design provided by the client.
+2.  The current rating of the prototype should be capped at **5Arms or lower**.
+3.  The copper slot fill factor of the prototype should be **around 40%**
 
 In addition to the specific asks from the client, for the prototype we also had to consider target values. 
 
@@ -92,6 +92,15 @@ In addition to the specific asks from the client, for the prototype we also had 
 </figcaption>
 
 # 4. Design
+## 4.1 Housing
+The client supplied the housing design and specifically requested the team to incorporate into our induction machine prototype design. Animation below shows the design of the housing endplate.
+
+[<img src="/images/portfolio/wempec_induction_3d/endplate_animation.gif" width="1000" >](/images/portfolio/wempec_induction_3d/endplate_animation.gif)
+<figcaption align = "center">
+  Endplate design for the induction machine. Center bore is served as a bearing pocket, with bolt through-holes at corner
+</figcaption>
+
+## 4.2 Stator and Rotor
 As mentioned in the previous overview, we extensively utilized tools like JMAG Express in our design process. JMAG Express serves as a parameter-based motor design support tool, allowing users to input values such as motor size, input voltage, stack length, etc. JMAG Express would then use these information to analytically estimate and output the machine characteristics. This tool played a pivotal role in shaping our design process for the first prototype by providing essential insights and estimations.
 
 [<img src="/images/portfolio/wempec_induction_3d/jmag_design_process.png" width="1000" >](/images/portfolio/wempec_induction_3d/jmag_design_process.png)
@@ -99,22 +108,20 @@ As mentioned in the previous overview, we extensively utilized tools like JMAG E
   Design process of using JMAG Express to find a suitable design for our prototype
 </figcaption>
 
-
-
 The team investigated existing induction motor building kits in the market; however, these kits are not very prevalent, and those found were either costly and included a higher percentage of pre-fabricated parts, decreasing student’s learning potential.
 
 Extensive research on induction machine designs was conducted before initiating our own design process. Our team's initial prototype design was influenced by an existing brushed DC machine from the Grainger Innovation Lab. Utilizing tools like JMAG Express, we analyzed various configurations and estimated performance.
 
-<!-- add more information starts here  -->
+After reviewing several designs options, the team settled on a 12-slots, 15 rotor bars design. Cross-section of the stator is shown below.
+
+[<img src="/images/portfolio/wempec_induction_3d/p1_cross_sect.jpg" width="800" >](/images/portfolio/wempec_induction_3d/p1_cross_sect.jpg)
+<figcaption align = "center">
+  Cross-sectional view of winding for our 12-slots, 4-poles induction machine prototype
+</figcaption>
 
 [<img src="/images/portfolio/wempec_induction_3d/winding_diagram.png" width="800" >](/images/portfolio/wempec_induction_3d/winding_diagram.png)
 <figcaption align = "center">
-  Winding diagram for our 12-slots, 4-poles induction machine prototype
-</figcaption>
-
-[<img src="/images/portfolio/wempec_induction_3d/winding_diagram_cross_section.png" width="800" >](/images/portfolio/wempec_induction_3d/winding_diagram_cross_section.png)
-<figcaption align = "center">
-  Cross-sectional view of winding for our 12-slots, 4-poles induction machine prototype
+  Winding diagram for our 12-slots, 4-poles induction machine prototype with coil pitch of 3
 </figcaption>
 
 [<img src="/images/portfolio/wempec_induction_3d/cad_p1_rotor_animation.gif" width="1000" >](/images/portfolio/wempec_induction_3d/cad_p1_rotor_animation.gif)
@@ -122,15 +129,28 @@ Extensive research on induction machine designs was conducted before initiating 
   Animation showing the assembly of the squirrial cage rotor
 </figcaption>
 
+[<img src="/images/portfolio/wempec_induction_3d/p1_lam.jpg" width="1000" >](/images/portfolio/wempec_induction_3d/p1_lam.jpg)
+<figcaption align = "center">
+  Stator lamination modified to include through holes for securing the housing endplates to the stator assembly.
+</figcaption>
+
 [<img src="/images/portfolio/wempec_induction_3d/cad_p1_assembly_animation.gif" width="1000" >](/images/portfolio/wempec_induction_3d/cad_p1_assembly_animation.gif)
 <figcaption align = "center">
   Animation showing the assembly of the entire induction machine prototype assembly
 </figcaption>
 
+### 4.2.1 Bill of Materials
 [<img src="/images/portfolio/wempec_induction_3d/p1_bom.JPG" width="1000" >](/images/portfolio/wempec_induction_3d/p1_bom.JPG)
 <figcaption align = "center">
   Bill of material for the first induction machine prototype
 </figcaption>
+
+<!-- ### 4.2.2 Interesting Observation
+One of the parameter we investigated was the slot fill factor 
+[<img src="/images/portfolio/wempec_induction_3d/p1_efficiency.jpg" width="800" >](/images/portfolio/wempec_induction_3d/p1_efficiency.jpg)
+<figcaption align = "center">
+  Winding diagram for our 12-slots, 4-poles induction machine prototype
+</figcaption> -->
 
 # 5. Assembly 
 This section will cover the assembly procsses of the three different prototypes we came up with for this project.
@@ -267,6 +287,13 @@ The team made several attempts to manufacture additional coils using the 3D prin
   Example of distributed winding with overlapping endturns. Image taken from <a href="https://www.emerald.com/insight/content/doi/10.1108/COMPEL-08-2013-0275/full/html">Emerald Insight</a>. <s>My apologies for the poor quality of the image, this is the best I could find...</s>
 </figcaption>
 
+Another design improvement the team hoped to implement was adding 3D printed slot inserts to preventing copper coils from getting into the rotor airgap.
+[<img src="/images/portfolio/wempec_induction_3d/winding_holder_animation.gif" width="1000" >](/images/portfolio/wempec_induction_3d/winding_holder_animation.gif)
+<figcaption align = "center">
+  Animation showing the insertion of slot inserts into stator slot
+</figcaption>
+
+
 [<img src="/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_26.jpg" width="1000" >](/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_26.jpg)
 <figcaption align = "center">
   Attempt in creating the overlapping endturn patten with coils wound using the manual winding machine. As can be seen, one of the coil sides must be removed from the slot and re-inserted back in order to achieve this pattern.
@@ -287,23 +314,48 @@ The team made several attempts to manufacture additional coils using the 3D prin
   Heat shrink tube inserted and stator coils were connected using WAGO wire lever nut
 </figcaption>
 
+In the second iteration, the team successfully lowered the height of the stator assembly by adopting the overlapping end-turn pattern during the winding process. Furthermore, the team devised a solution to prevent the copper coils from entering the rotor air gap by 3D printing slot inserts. Unfortunately, due to technical difficulties with the laser cutter in the lab, the team faced obstacles in producing new rotor laminations. This setback impacted our timeline as we worked towards improving the manufacturability of the rotor assembly.
 
 ## 5.3 Third Iteration (P3)
+Once the laser cutter was operational again, the team wasted no time in initiating work on our third prototype. For this final iteration of the induction machine prototype, our primary focus was on enhancing the rotor design.
+
+In the prior rotor design, users had to solder the copper bars to the copper endplate to complete the squirrel cage structure. In this iteration, the team aimed to develop a new design that eliminated the need for soldering, relying instead on mechanical methods to secure the squirrel cage structure. When searching for new solutions, the team conceived the idea of replacing the copper bars with aluminum standoffs, a readily available component within the lab and commonly used in mounting electronic circuit boards (ECBs).
+
+{:.text-align-center}
+[<img src="/images/portfolio/wempec_induction_3d/aluminum_standoff.jpg" width="300" >](/images/portfolio/wempec_induction_3d/aluminum_standoff.jpg)
+[<img src="/images/portfolio/wempec_induction_3d/aluminum_standoff_side.jpg" width="400" >](/images/portfolio/wempec_induction_3d/aluminum_standoff_side.jpg)
+<figcaption align = "center">
+  8mm Male-Female Threaded Hex Standoffs 
+</figcaption>
+
+In order to substitute the copper bars with aluminum standoffs, the team had to estimate the resistance values of these aluminum standoffs to match the copper bar values. Given copper has an electrical conductivity of approximately three times higher than aluminum, this implies that the cross-sectional area of the aluminum components needs to be three times larger to achieve the same resistance. Consequently, accommodating all the required aluminum standoffs in the design became challenging.
+
+As a result, one of the design decisions we had to make was to reduce the number of standoffs from the original design of 13 to just 11. This alteration in the design probably led to a reduction in the torque output and hence overall efficiency. Though, given that manufacturability was our priority in this project, the team was comfortable with implementing such changes to the prototype design.
+
 [<img src="/images/portfolio/wempec_induction_3d/p3_lam.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/p3_lam.jpeg)
+<figcaption align = "center">
+  New lamination design for the third prototype <s>(Actually...if you observe closely, you would notice that the number of rotor slots matches the number of stator slots...this was actually a blunder the team had as the rotor would get magnetically cogged up and not rotate at all...anyway...lesson learned and new laminations were re-cut)</s> 
+</figcaption>
 
 [<img src="/images/portfolio/wempec_induction_3d/p3_lam_shaft.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/p3_lam_shaft.jpeg)
+<figcaption align = "center">
+  New laminations inserted into the rotor slots
+</figcaption>
 
 [<img src="/images/portfolio/wempec_induction_3d/p3_rotor.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/p3_rotor.jpeg)
+<figcaption align = "center">
+  Finished assembly of the rotor, M3 bolts were used on the female end and lock nut was used on the male end. New endplates were re-cut using aluminum to match the material used
+</figcaption>
+
+Moving on to the stator ... despite 
 
 [<img src="/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_19.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_19.jpeg)
 
-[<img src="/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_19.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_19.jpeg)
 
-[<img src="/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_37.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_37.jpeg)
+One particularly thing the team had to be extra careful of was ensureing the core of the aluminum standoff is not hallow. 
 
 [<img src="/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_36.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_36.jpeg)
 
-[<img src="/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_39.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_39.jpeg)
 
 [<img src="/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_38.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_38.jpeg)
 
