@@ -9,7 +9,7 @@ redirect_from:
 header: 
   overlay_color: #0a0a0a
   overlay_filter: rgba(240, 240, 240, 0.4)
-  overlay_image: portfolio/torch_bless.jpg
+  overlay_image: /images/gallery_cover/torch_bless.jpg
 ---
 
 # Education
