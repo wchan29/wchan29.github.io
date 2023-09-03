@@ -16,6 +16,13 @@ toc_sticky: true
 
 ---
 
+<style>
+.text-align-center {
+  text-align: center;
+}
+
+</style>
+
 # 0. Overview
 A dynamometer is an essential device used for characterizing electric machines to understand their performances. This particular dynamometer setup is designed for the WEMPEC research lab at UW-Madison, with the primary objective of conducting comprehensive tests on small-scale electric machines for research purposes. The dynamometer prototype possesses the capability to characterize machines rated at up to 10N-m of torque and a rotational speed of 3000RPM. 
 
@@ -32,11 +39,11 @@ For those unfamiliar with the term dynamometer, you probably wondering, "What th
 </figcaption>
 
 
-For those who are interested in learning more in details about the inner workings of dynamometer, I would recommend checking out the dynamometer Wikipedia page [here](https://en.wikipedia.org/wiki/Dynamometer). 
-{: .notice--primary}
+**NOTE:** For those who are interested in learning more in details about the inner workings of dynamometer, I would recommend checking out the dynamometer Wikipedia page [here](https://en.wikipedia.org/wiki/Dynamometer). 
+{: .notice--info}
 
 
-# 3. Some basic design requirments ... 
+# 3. Design Requirments
 Here are some of the few basic requirements for this dynamometer, 
 
 1. Must fit on a typical lab bench. (about X by X).
@@ -47,12 +54,12 @@ Here are some of the few basic requirements for this dynamometer,
 Some nice features to have would be, 
 
 1. An HMI (Human Machine Interface) to control the load motor.
-2. A mechanism for quick installation and removal of test motor without the compromise of shaft alignment.
+2. A mechanism for quick installation and removal of test motor without compromising shaft alignment.
 
 
 For designing this prototype we also aimed for using as many off-the-shelf components as possible to reduce cost and machining needs. 
 
-# 4. Some Brainstroming ...
+# 4. Brainstroming
 ## 4.1 Mounting
 With the prototype's size limit in mind, I searched for a suitable base plate for mounting all the components. The optical breadboard from [ThorLabs](https://www.thorlabs.com/) caught my attention (see an example in figure below). One of the awesome things about these optical tables is the grid of threaded holes that you can mount things to.
 
@@ -111,12 +118,22 @@ Lucky enough, Kyle was kind enough to pair me up with [Lee](https://www.linkedin
 ### 5.3.1 Servo Drive
 The pre-selected servo is an **Allen-Bradley MPL-A4540F-MJ74AA** with rated speed of 3000RPM and rated power output of 2.6kW.  Consequently, a drive capable of accommodating 2.6kW or higher is necessary. After a thorough catalog review, we've selected the **Allen-Bradley Kinetix 300 2097-V33PR6**. This drive offers a rated continuous power output of 3kW and the flexibility to operate on either 120V 1φ or 240V 3φ at higher speed. 
 
-![<img src="/images/portfolio/wempec_mini_dyne/ab_drive.jpg" width="500" >](/images/portfolio/wempec_mini_dyne/ab_drive.jpg){: .align-center}
+{:.text-align-center}
+![<img src="/images/portfolio/wempec_mini_dyne/ab_drive.jpg" width=500">](/images/portfolio/wempec_mini_dyne/ab_drive.jpg)
+[]()
+<figcaption align = "center">
+  Allen-Bradley Kinetix 300 2097-V33PR6
+</figcaption>
 
 ### 5.3.2 HMI & PLC
-As mentioned earlier one of the nice features we would like the dynamometer prototype to have is an HMI (Human Machine Interface) to operate the servo motor. The HMI we selected is the 7" PanelView 800 offered by Rockwell Automation (in case you are wondering ... it is the parent company of Allen-Bradley). This HMI panel comes with a TFT Touchscreen and the customizability of creating your own interface for you specific application, which in my opinion is pretty sweet. 
+As mentioned earlier one of the nice features we would like the dynamometer prototype to have is an HMI (Human Machine Interface) to operate the servo motor. The HMI we selected is the 7" PanelView 800 offered by Rockwell Automation (in case you are wondering ... it is the parent company of Allen-Bradley). This HMI panel comes with a TFT Touchscreen and the customizability of creating your own interface for you specific application, which in my opinion is pretty sweet. <br/>
 
-![<img src="/images/portfolio/wempec_mini_dyne/panelview_800.jpg" width="500" >](/images/portfolio/wempec_mini_dyne/panelview_800.jpg){: .align-center}
+{:.text-align-center}
+![<img src="/images/portfolio/wempec_mini_dyne/panelview_800.jpg" width="500" >](/images/portfolio/wempec_mini_dyne/panelview_800.jpg)
+[]()
+<figcaption align = "center">
+  Allen-Bradley PanelView 800 7"
+</figcaption>
 
 In addition, in order to make this HMI work with the drive we will need a PLC (Programmable Logic Controller). We paired it up with a Micro820™ controller (also by Rockwell). This is one of basic controller that offers RJ45 Ethernet coomunication, whcich is also the standard for the HMI and drive. 
 
@@ -126,37 +143,70 @@ Some other components such as the relay for controlling the servo brake and and 
 ## 5.3 Mounting
 Animation below shows the overall assembly of the prototype with the 8020 enclosure. The enclosure was designed to have heat ventilation cutout on the polycarbonate panels, and soft-close friction lid hinges for the enclosure door.
 [<img src="/images/portfolio/wempec_mini_dyne/enclosure_animation.gif" width="1000" >](/images/portfolio/wempec_mini_dyne/enclosure_animation.gif)
+<figcaption align = "center">
+  Animation of enclosure with the dynamometer setup
+</figcaption>
 
 In terms of mounting the electrical components, we decided on mounting the HMI panel on the enclosure door. All the electrical components (apart from the drive) would be housed within the electrical enclosure (mounting on the right side of the setup.) And for the drive, would be mounted directly behind the enclosure. 
 
 [<img src="/images/portfolio/wempec_mini_dyne/dyne_electrical_box_mounting_animation.gif" width="1000" >](/images/portfolio/wempec_mini_dyne/dyne_electrical_box_mounting_animation.gif)
+<figcaption align = "center">
+  Animation showing the mounting of the HMI panel, servo drive and the electrical panel
+</figcaption>
 
-Overall setup for the dynamometer prototype.
-[<img src="/images/portfolio/wempec_mini_dyne/setup_enclosure.PNG" width="1000" >](/images/portfolio/wempec_mini_dyne/setup_enclosure.PNG)
+[<img src="/images/portfolio/wempec_mini_dyne/setup_enclosure.PNG" width="1000" >](/images/portfolio/wempec_mini_dyne/setup_enclosure.PNG) 
+<figcaption align = "center">
+  Overall setup for the dynamometer prototype
+</figcaption>
 
 # 6. Assembly 
 
 [<img src="/images/portfolio/wempec_mini_dyne/enclosure_1.jpeg" width="1000" >](/images/portfolio/wempec_mini_dyne/enclosure_1.jpeg)
+<figcaption align = "center">
+  Finished enclosure attached to the baseplate
+</figcaption>
 
 [<img src="/images/portfolio/wempec_mini_dyne/enclosure_3.jpeg" width="1000" >](/images/portfolio/wempec_mini_dyne/enclosure_3.jpeg)
+<figcaption align = "center">
+  Installing the motor brackets and linear optical rail
+</figcaption>
 
 [<img src="/images/portfolio/wempec_mini_dyne/enclosure_2.jpeg" width="1000" >](/images/portfolio/wempec_mini_dyne/enclosure_2.jpeg)
-
-[<img src="/images/portfolio/wempec_mini_dyne/enclosure_2.jpeg" width="1000" >](/images/portfolio/wempec_mini_dyne/enclosure_2.jpeg)
-
-[<img src="/images/portfolio/wempec_mini_dyne/wempec_mini_dyne_front.jpg" width="1000" >](/images/portfolio/wempec_mini_dyne/wempec_mini_dyne_front.jpg)
+<figcaption align = "center">
+  A gas struct was added to enclosure of the initial prototype. Later replaced with a soft-closing hinge instead
+</figcaption>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/89PFBwvEP78" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<figcaption align = "center">
+  Video clip showing the gas struct opening and closing action
+</figcaption>
 <br>
 
+[<img src="/images/portfolio/wempec_mini_dyne/wempec_mini_dyne_front.jpg" width="1000" >](/images/portfolio/wempec_mini_dyne/wempec_mini_dyne_front.jpg)
+<figcaption align = "center">
+  Electrical enclosure mounted!
+</figcaption>
+
 [<img src="/images/portfolio/wempec_mini_dyne/electical_cabinet.jpeg" width="1000" >](/images/portfolio/wempec_mini_dyne/electical_cabinet.jpeg)
+<figcaption align = "center">
+  The "guts" of the electrical enclosure. A 24V DC power supply was added to supply power to the ethernet hub, brake relay, and the mirco-controller. An additional module was added to the controller to read signals from the torque transducer
+</figcaption>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_FWb2jQg6Rg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<figcaption align = "center">
+  Testing out the connection between the servo drive and the HMI with a very barebone interface
+</figcaption>
 <br>
 
 [<img src="/images/portfolio/wempec_mini_dyne/enclosure_full1.jpeg" width="1000" >](/images/portfolio/wempec_mini_dyne/enclosure_full1.jpeg)
+<figcaption align = "center">
+  The "guts" of the electrical enclosure. A 24V DC power supply was added to supply power to the ethernet hub, brake relay, and the mirco-controller. An additional module was added to the controller to read signals from the torque transducer
+</figcaption>
 
 [<img src="/images/portfolio/wempec_mini_dyne/enclosure_full2.jpeg" width="1000" >](/images/portfolio/wempec_mini_dyne/enclosure_full2.jpeg)
+<figcaption align = "center">
+  Final finished assembly!
+</figcaption>
 
 # 7. Updates
 

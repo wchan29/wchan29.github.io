@@ -112,6 +112,7 @@ The team investigated existing induction motor building kits in the market; howe
 
 Extensive research on induction machine designs was conducted before initiating our own design process. Our team's initial prototype design was influenced by an existing brushed DC machine from the Grainger Innovation Lab. Utilizing tools like JMAG Express, we analyzed various configurations and estimated performance.
 
+### 4.2.1 Winding Design
 After reviewing several designs options, the team settled on a 12-slots, 15 rotor bars design. Cross-section of the stator is shown below.
 
 [<img src="/images/portfolio/wempec_induction_3d/p1_cross_sect.jpg" width="800" >](/images/portfolio/wempec_induction_3d/p1_cross_sect.jpg)
@@ -123,6 +124,8 @@ After reviewing several designs options, the team settled on a 12-slots, 15 roto
 <figcaption align = "center">
   Winding diagram for our 12-slots, 4-poles induction machine prototype with coil pitch of 3
 </figcaption>
+
+### 4.2.2 Assembly
 
 [<img src="/images/portfolio/wempec_induction_3d/cad_p1_rotor_animation.gif" width="1000" >](/images/portfolio/wempec_induction_3d/cad_p1_rotor_animation.gif)
 <figcaption align = "center">
@@ -139,7 +142,7 @@ After reviewing several designs options, the team settled on a 12-slots, 15 roto
   Animation showing the assembly of the entire induction machine prototype assembly
 </figcaption>
 
-### 4.2.1 Bill of Materials
+## 4.3 Bill of Materials
 [<img src="/images/portfolio/wempec_induction_3d/p1_bom.JPG" width="1000" >](/images/portfolio/wempec_induction_3d/p1_bom.JPG)
 <figcaption align = "center">
   Bill of material for the first induction machine prototype
@@ -330,7 +333,10 @@ In the prior rotor design, users had to solder the copper bars to the copper end
 
 In order to substitute the copper bars with aluminum standoffs, the team had to estimate the resistance values of these aluminum standoffs to match the copper bar values. Given copper has an electrical conductivity of approximately three times higher than aluminum, this implies that the cross-sectional area of the aluminum components needs to be three times larger to achieve the same resistance. Consequently, accommodating all the required aluminum standoffs in the design became challenging.
 
-As a result, one of the design decisions we had to make was to reduce the number of standoffs from the original design of 13 to just 11. This alteration in the design probably led to a reduction in the torque output and hence overall efficiency. Though, given that manufacturability was our priority in this project, the team was comfortable with implementing such changes to the prototype design.
+As a result, one of the design decisions the team had to make was to reduce the number of standoffs from the original design of 13 to just 11. This alteration in the design probably led to a reduction in the torque output and hence overall efficiency. Though, given that manufacturability was our priority in this project, the team was comfortable with implementing such changes to the prototype design.
+
+One particularly important aspect the team had to exercise extra caution with was ensuring that the core of the aluminum standoff is not hollow during the selection process.
+
 
 [<img src="/images/portfolio/wempec_induction_3d/p3_lam.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/p3_lam.jpeg)
 <figcaption align = "center">
@@ -347,25 +353,49 @@ As a result, one of the design decisions we had to make was to reduce the number
   Finished assembly of the rotor, M3 bolts were used on the female end and lock nut was used on the male end. New endplates were re-cut using aluminum to match the material used
 </figcaption>
 
-Moving on to the stator ... despite 
+Turning our attention to the stator. Following the successful implementation of the overlapping end-turn pattern in the second prototype, the client challenge us to further reduction of the coil length. This reduction is primarily motivated by cost considerations, as enameled copper wire can be expensive, and decreasing the coil length can provide cost savings for each motor.
 
 [<img src="/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_19.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_19.jpeg)
-
-
-One particularly thing the team had to be extra careful of was ensureing the core of the aluminum standoff is not hallow. 
+<figcaption align = "center">
+  Stator lamination covered with polyimide electrical tape to conceal the sharp edges. <s>In all honesty...we did use an excessive amount of tape which was a bit unnecessary...</s>
+</figcaption>
 
 [<img src="/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_36.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_36.jpeg)
+<figcaption align = "center">
+  Inserting new cois into the stator
+</figcaption>
 
+One of the major challenges encountered when attempting to reduce the length of the coils was the difficulty in bending the end-turns. When the coils were tightly packed together, shaping them became exceptionally challenging. The team noticed by using a mallet and gently tapping the coils, the shaping process became considerably more manageable. Thus, with this technique and some patience, the team succeeded in successfully inserting all six coils. The reduction in coil length is about 30% from the previous prototype.
 
 [<img src="/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_38.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_38.jpeg)
+<figcaption align = "center">
+  Side view of stator showing the endwinding height
+</figcaption>
 
-[<img src="/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_32.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_32.jpeg)
+[<img src="/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_32.PNG" width="1000" >](/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_32.PNG)
+<figcaption align = "center">
+  Top view of the finished stator
+</figcaption>
+
+Image below shows the height of the finished stator to be approximately 6cm (about 2.36"). To provide a prespective, the first prototype is slightly taller than a McMaster-Carr catalog and is about 3.25" in height. That is close to **30%** in height reduction.
 
 [<img src="/images/portfolio/wempec_induction_3d/wempec_inducttion_3d_35.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/wempec_induction_3d_35.jpeg)
+<figcaption align = "center">
+  Side view of finished stator with a ruler on the side.
+</figcaption>
 
 
-# 6. Final Showcase
+# 6. Summary and Final Thoughts 
+Well, in summary, I would conclude this senior design project as a success. We took on the challenge of creating a small-scale induction machine tailored for educational purposes in a college course. Our mission was clear: to develop a teaching tool that would equip young engineers with hands-on experience in motor constructions as they transition into the industry.
+
+The team worked tirelessly in coming up with three different prototypes for our client. I must also admit throughout the design and building process I myself have made countless mistakes <s>specifically with the rotor lamination in the third prototype lol</s>. Regardless, I have learned a lot from this project and the mistakes I have had made along the way. 
+
+All in all, I am satisfied with the way how things turn out and the teamwork we put in. Needless to say, the client was also pleased with the result!
+
 [<img src="/images/portfolio/wempec_induction_3d/final_showcase.jpeg" width="1000" >](/images/portfolio/wempec_induction_3d/final_showcase.jpeg)
+<figcaption align = "center">
+  Poster session and presentation for the senior design project
+</figcaption>
 
 <br/>
 
