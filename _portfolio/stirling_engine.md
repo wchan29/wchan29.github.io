@@ -24,6 +24,7 @@ toc_sticky: true
 <figcaption align = "center">Smoke test for leakage. Blowing <s>vape</s> smoke into the chamber ... Thanks Michael </figcaption>
 
 [<img src="/images/portfolio/stirling_engine/stirling_engine_2.jpeg" width="1000" >](/images/portfolio/stirling_engine/stirling_engine_2.jpeg)
+<br/>
 
 [<img src="/images/portfolio/stirling_engine/stirling_engine_3.jpeg" width="1000" >](/images/portfolio/stirling_engine/stirling_engine_3.jpeg)
 
