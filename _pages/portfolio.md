@@ -150,7 +150,7 @@ photo_gallery:
 <div class="container">
   <div id='show_bg'>
     <div class="text-block">
-      <h1 style="color: white;">Photo Gallery</h1>
+      <h1 style="color: white;">Interested in seeing more?</h1>
       <p>Photo album for various past projects.</p>
       <a href="https://photos.app.goo.gl/nLpJnqviTFK3v8zf9"><button class="btn"><u>View Here</u></button></a>
     </div>
