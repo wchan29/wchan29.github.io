@@ -10,14 +10,24 @@ header:
   overlay_color: #0a0a0a
   overlay_filter: rgba(240, 240, 240, 0.4)
   overlay_image: /images/gallery_cover/torch_bless.jpg
+  actions:
+    - label: "Download PDF"
+      url: "/files/anson_resume_fall2023.pdf"
 ---
 
 # Education
-## University of Wisconsin - Madison <img align='right' src="../images/uw_logo.png" width="350">
+## University of Wisconsin - Madison <img align='right' src="../images/uw_logo.png" width="350" style="padding-top:100px">
 
 * <b>B.S. in Mechanical Engineering</b>, <em>Fall 2021</em> 
 * <b>M.S. in Electrical and Computer Engineering</b>, <em> Expected 2024</em>
-  * Advised under Professor Eric L. Severson.
+  * Advising under [Professor Eric L. Severson](https://www.linkedin.com/in/eseverson/).
+
+#### Coursework
+* Electromagnetic Design of AC Machines
+* Dynamics and Control of AC Drives
+* Redesign and Prototype Fabrication
+* Power Electronic Circuits and Laboratory
+* Finite Elements 
 
 <br clear="right"/>
 
@@ -59,17 +69,19 @@ Competed in FSAE Electric 2019 in Lincoln, NE, received 2nd place in design cate
 
 I work as a student tutor under the Undergraduate Learning Center in College of Engineering. Provided group and one-on-one tutoring for 30+ undergraduate students each week.
 <br clear="left"/>
+<br/>
+<br/>
+
 
 # Publications
-***
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-<br>
+<br/>
+<br/>
   
 # Skills
-***
 ## Hands-on
 * Electric Machine Fabrication 
 * Component Machining and Assembly
@@ -90,7 +102,5 @@ I work as a student tutor under the Undergraduate Learning Center in College of 
 * Mandarin Chinese
 * Cantonese
 
-<br>
-[Download PDF](/files/anson_resume_fall2023.pdf){: .btn .btn--primary .btn--x-large}
   
 
