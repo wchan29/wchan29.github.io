@@ -12,7 +12,7 @@ header:
   overlay_image: /images/gallery_cover/torch_bless.jpg
   actions:
     - label: "Download PDF"
-      url: "/files/anson_resume_fall2023.pdf"
+      url: "https://github.com/wchan29/anson_cv/blob/main/resume_anson.pdf"
 ---
 
 # Education
