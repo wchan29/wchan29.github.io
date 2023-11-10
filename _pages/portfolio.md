@@ -34,6 +34,13 @@ feature_row:
   btn_class: btn--primary
   btn_label: "Read More"
 
+# - url: https://github.com/wchan29/motor_winding_helper/tree/develop
+#   image_path: /images/gallery_cover/voltage_phasor_cover.JPG
+#   title: Motor Winding Helper
+#   excerpt: A small python project for plotting machine winding voltage phasor
+#   btn_class: btn--primary
+#   btn_label: "Read More"
+
 feature_row2:
 - url: /portfolio/wempec_mini_dyne/
   image_path: /images/gallery_cover/wempec_mini_dyne_front.jpg
@@ -151,7 +158,7 @@ photo_gallery:
   <div id='show_bg'>
     <div class="text-block">
       <h1 style="color: white;">Interested in seeing more?</h1>
-      <p>Photo album for various past projects.</p>
+      <p>Check my photo gallery in Google Photos!</p>
       <a href="https://photos.app.goo.gl/nLpJnqviTFK3v8zf9"><button class="btn"><u>View Here</u></button></a>
     </div>
   </div>
