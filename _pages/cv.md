@@ -9,20 +9,29 @@ redirect_from:
 header: 
   overlay_color: #0a0a0a
   overlay_filter: rgba(240, 240, 240, 0.4)
-  overlay_image: /images/gallery_cover/torch_bless.jpg
+  overlay_image: /images/portfolio/housing_front.JPG
   actions:
     - label: "Download PDF"
       url: "https://github.com/wchan29/anson_cv/blob/main/resume_anson.pdf"
+
+
 ---
 
+
+<style>
+.text-align-center {
+  text-align: center;
+}
+</style>
+
 # Education
-## University of Wisconsin - Madison <img align='right' src="../images/uw_logo.png" width="350" style="padding-top:100px">
+## University of Wisconsin - Madison <img align='left' src="/images/cv/uw-crest-color-web-digital.png" width="250" style="padding-left: 40px; padding-right: 70px; padding-top:15px; padding-bottom: 170px">
 
 * <b>B.S. in Mechanical Engineering</b>, <em>Fall 2021</em> 
-* <b>M.S. in Electrical and Computer Engineering</b>, <em> Expected 2024</em>
-  * Advising under [Professor Eric L. Severson](https://www.linkedin.com/in/eseverson/).
+* <b>M.S. in Electrical and Computer Engineering</b>, <em> Expected July 2024</em>
+    * Advised under [Professor Eric L. Severson](https://www.linkedin.com/in/eseverson/).
 
-#### Coursework
+#### Relavent Coursework
 * Electromagnetic Design of AC Machines
 * Dynamics and Control of AC Drives
 * Redesign and Prototype Fabrication
@@ -91,11 +100,14 @@ I work as a student tutor under the Undergraduate Learning Center in College of 
 * Python
 * SolidWorks
 * Siemens NX
+* ANSYS
+* Altium
 * LabView
 * MATLAB/Simulink
 * Siemens MAGNET
 * FEMM
 * JMAG
+* LaTeX
 
 ## Language 
 * English 
