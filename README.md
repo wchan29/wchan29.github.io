@@ -1,4 +1,17 @@
-# [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
+# Status
+![Website](https://img.shields.io/website?up_message=Up&up_color=green&down_message=Down&down_color=red&url=https%3A%2F%2Fwchan29.github.io) ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/wchan29/wchan29.github.io?label=last%20update) ![GitHub deployments](https://img.shields.io/github/deployments/wchan29/wchan29.github.io/github-pages) 
+
+
+# Note to myself
+
+### Run this to open site locally
+```
+bundle exec jekyll serve
+```
+
+
+# Notes from Original Repo
+## [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
 [![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.7-blue.svg)](https://jekyllrb.com/)
