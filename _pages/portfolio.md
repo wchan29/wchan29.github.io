@@ -137,7 +137,7 @@ photo_gallery:
     
 </style>
 
-{% include feature_row id="intro" type="center"%}
+<!-- {% include feature_row id="intro" type="center"%} -->
 
 # Active Projects
 {: .text-center}
