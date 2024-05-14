@@ -13,13 +13,6 @@ intro:
   - excerpt: I am currently in the process of updating/adding new items to my portfolio, some pages here are not fully completed yet. I am hoping to have them done by the end of August.
 
 feature_row:
-- url: /portfolio/wempec_additive_housing/
-  image_path: /images/gallery_cover/add_housing_cover.JPG
-  title: AlSi10Mg Additively Manufactured Generator Housing with Integrated Cooling Channels
-  excerpt: Department of Energy Project on High Efficiency Combined Heat and Power (CHP) Generation. 
-  btn_class: btn--primary
-  btn_label: "Read More"
-
 - url: /portfolio/wempec_eturbo/
   image_path: /images/gallery_cover/Turbocharger_nasa.png
   title: Bearingless Machines (BSPM) for Aerial E-Turbocharger Application
@@ -42,6 +35,13 @@ feature_row:
 #   btn_label: "Read More"
 
 feature_row2:
+- url: /portfolio/wempec_additive_housing/
+  image_path: /images/gallery_cover/add_housing_cover.JPG
+  title: AlSi10Mg Additively Manufactured Generator Housing with Integrated Cooling Channels
+  excerpt: Department of Energy Project on High Efficiency Combined Heat and Power (CHP) Generation. 
+  btn_class: btn--primary
+  btn_label: "Read More"
+
 - url: /portfolio/wempec_mini_dyne/
   image_path: /images/gallery_cover/wempec_mini_dyne_front.jpg
   title: 10N-m Mini Dynamometer Prototype
@@ -165,6 +165,3 @@ photo_gallery:
 </div>
 
 <br/>
-
-
-
