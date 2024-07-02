@@ -24,25 +24,26 @@ header:
 }
 </style>
 
-# Education
-## University of Wisconsin - Madison <img align='left' src="/images/cv/uw-crest-color-web-digital.png" width="250" style="padding-left: 40px; padding-right: 70px; padding-top:15px; padding-bottom: 170px">
+# Education 
+## University of Wisconsin - Madison  <i class="fa fa-solid fa-graduation-cap"></i>  <img align='left' src="/images/cv/uw-crest-color-web-digital.png" width="260" style="padding-left: 40px; padding-right: 80px; padding-top:15px; padding-bottom: 200px">
 
-* <b>B.S. in Mechanical Engineering</b>, <em>Fall 2021</em> 
-* <b>M.S. in Electrical and Computer Engineering</b>, <em> Expected July 2024</em>
-    * Advised under [Professor Eric L. Severson](https://www.linkedin.com/in/eseverson/).
+* <b>Ph.D. in Electrical and Computer Engineering</b>, *TBD*
+* <b>M.S. in Electrical and Computer Engineering</b>, *Summer 2024*
+* <b>B.S. in Mechanical Engineering</b>, *Fall 2021*
 
 #### Relavent Coursework
 * Electromagnetic Design of AC Machines
 * Dynamics and Control of AC Drives
 * Redesign and Prototype Fabrication
 * Power Electronic Circuits and Laboratory
+* Automatic Controls Laboratory
 * Finite Elements 
 
 <br clear="right"/>
 
 # Experience
-## Severson Research Group - [severson.wempec.wisc.edu](https://severson.wempec.wisc.edu/) <img align="left" src="../images/wempec_logo.jpg" width="250" style="padding-right: 30px; padding-bottom: 15px; padding-top: 10px">
-<b>Research Assistant</b>, <em>September 2022 - Present</em>
+## Severson Research Group - [severson.wempec.wisc.edu](https://severson.wempec.wisc.edu/) <img align="left" src="../images/wempec_logo.jpg" width="250" style="padding-right: 50px; padding-bottom: 15px; padding-top: 20px">
+<b>Research Assistant</b>, <em>September 2022 - June 2024</em>
 
 ### Projects
   * Additively Manufactured Stator Housing for High-Speed Bearingless Generator
@@ -50,26 +51,26 @@ header:
 
 <br clear="left"/>
 
-## Milwaukee Tool - [milwaukeetool.com](https://www.milwaukeetool.com/) <img align="left" src="../images/Milwaukee_Logo.png" width="250" style="padding-right: 30px; padding-bottom: 60px; padding-top: 60px">
+## Milwaukee Tool - [milwaukeetool.com](https://www.milwaukeetool.com/) <img align="left" src="../images/Milwaukee_Logo.png" width="250" style="padding-right: 50px; padding-bottom: 60px; padding-top: 60px">
 <b>NPD Mechanical Design Engineer</b>, <em>January - August 2022</em>
 * Conducted FEA analysis on BLDC motors of different sizes and winding configurations, recommended optimal designs for product development using Pugh Matrix for informed and cost-effective solutions.
 * Assessed power tool performance requirements through the collection and analysis of motor thermal characteristics and power output data from competitor products.
 <br clear="left"/>
 
-## Wisconsin Electric Machines and Power Electronics Consortium <img align="left" src="../images/wempec_logo.jpg" width="250" style="padding-right: 30px; padding-bottom: 50px; padding-top: 50px"> - [wempec.wisc.edu](wempec.wisc.edu) 
+## Wisconsin Electric Machines and Power Electronics Consortium <img align="left" src="../images/wempec_logo.jpg" width="250" style="padding-right: 50px; padding-bottom: 50px; padding-top: 50px"> - [wempec.wisc.edu](wempec.wisc.edu) 
 <b>Undergraduate Researcher & Lab Assistant</b>, <em>September 2019 – December 2021</em>
 
 I joined WEMPEC as a research lab assistant working directly under lab manager Kyle Hansen.
-I was accountable for prototyping a new 20 N-m dynamometer setup and various lab tasks such as electric machines fabrication for the WEMPEC research lab. In 2020, I moved on to a new role as an undergraduate reseacher working directly under Prof. Eric Severson, where I investigated and performed literature review on the current development of passive permanent and superconducting magnetic bearing technologies.
+I was accountable for prototyping a new 10 N-m dynamometer setup and various lab tasks such as electric machines fabrication for the WEMPEC research lab. In 2020, I moved on to a new role as an undergraduate reseacher working directly under Prof. Eric Severson, where I investigated and performed literature review on the current development of passive permanent and superconducting magnetic bearing technologies.
 <br clear="left"/>
 
 # Extracurricular
-## Wisconsin Racing Electric - [wisconsinracing.org](https://www.wisconsinracing.org/) <img align="left" src="../images/wisc_racing.png" width="250" style="padding-right: 30px; padding-bottom: 50px; padding-top: 50px">
+## Wisconsin Racing Electric - [wisconsinracing.org](https://www.wisconsinracing.org/) <img align="left" src="../images/wisc_racing.png" width="250" style="padding-right:50px; padding-bottom: 50px; padding-top: 50px">
 <b>Chassis Team Member</b>, <em>2018 - 2021</em>
 
 Competed in FSAE Electric 2019 in Lincoln, NE, received 2nd place in design category. I worked on various projects such as prototyping the enclosure for the TSAL warning light system using SLA 3D printing. Accumulated over 75+ hours of machining experience in manufacturing chassis steering and welding jig components.
 
-[<img src="../images/wisco_racing/2019_car.JPG" width="395">](../images/wisco_racing/2019_car.JPG) [<img src="../images/wisco_racing/2019_team_lincoln.jpg" width="575" >](../images/wisco_racing/2019_team_lincoln.JPG)
+<!-- [<img src="../images/wisco_racing/2019_car.JPG" width="395">](../images/wisco_racing/2019_car.JPG) [<img src="../images/wisco_racing/2019_team_lincoln.jpg" width="575" >](../images/wisco_racing/2019_team_lincoln.JPG) -->
 
 <br clear="left"/>
 

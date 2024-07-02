@@ -1,5 +1,5 @@
 ---
-title: "Bearingless Motor/Generator Opportunities in sCO2 Power Cycles *(Accepted)*"
+title: "Bearingless Motor/Generator Opportunities in sCO2 Power Cycles"
 # link: https://ieeexplore.ieee.org/document/9449571
 collection: publications
 # permalink: /publication/2024_sCO2_Bearingless_Applications_in_sCO2

@@ -10,22 +10,9 @@ header:
   overlay_image: /images/portfolio/windings/bp5_stator.jpg
 
 intro: 
-  - excerpt: I am currently in the process of updating/adding new items to my portfolio, some pages here are not fully completed yet. I am hoping to have them done by the end of August.
+  - excerpt: New projects to come!
 
 feature_row:
-- url: /portfolio/wempec_eturbo/
-  image_path: /images/gallery_cover/Turbocharger_nasa.png
-  title: Bearingless Machines (BSPM) for Aerial E-Turbocharger Application
-  excerpt: Army Research Laboratory (ARL) and UW’s ERC & Severson Research Group to explore using bearingless motor technology to create a new generation of electric turbochargers for aerial vehicles.
-  btn_class: btn--primary
-  btn_label: "Read More"
-
-- url: https://emach.readthedocs.io/en/latest/index.html
-  image_path: /images/gallery_cover/eMach.png
-  title: eMach
-  excerpt: An open-source electric machine modeling, evaluation, and optimization framework developed in Python.
-  btn_class: btn--primary
-  btn_label: "Read More"
 
 # - url: https://github.com/wchan29/motor_winding_helper/tree/develop
 #   image_path: /images/gallery_cover/voltage_phasor_cover.JPG
@@ -35,10 +22,24 @@ feature_row:
 #   btn_label: "Read More"
 
 feature_row2:
+- url: /portfolio/wempec_eturbo/
+  image_path: /images/gallery_cover/Turbocharger_nasa.png
+  title: Bearingless Machines (BSPM) for Aerial E-Turbocharger Application
+  excerpt: Army Research Laboratory (ARL) and UW’s ERC & Severson Research Group to explore using bearingless motor technology to create a new generation of electric turbochargers for aerial vehicles.
+  btn_class: btn--primary
+  btn_label: "Read More"
+
 - url: /portfolio/wempec_additive_housing/
   image_path: /images/gallery_cover/add_housing_cover.JPG
   title: AlSi10Mg Additively Manufactured Generator Housing with Integrated Cooling Channels
   excerpt: Department of Energy Project on High Efficiency Combined Heat and Power (CHP) Generation. 
+  btn_class: btn--primary
+  btn_label: "Read More"
+
+- url: https://emach.readthedocs.io/en/latest/index.html
+  image_path: /images/gallery_cover/eMach.png
+  title: eMach
+  excerpt: An open-source electric machine modeling, evaluation, and optimization framework developed in Python.
   btn_class: btn--primary
   btn_label: "Read More"
 
@@ -139,16 +140,16 @@ photo_gallery:
 
 <!-- {% include feature_row id="intro" type="center"%} -->
 
-# Active Projects
+<!-- # Active Projects
 {: .text-center}
 <br/>
 
-{% include feature_row %}
+{% include feature_row %} -->
+
 
 # Past Projects
 {: .text-center}
 <br/>
-
 
 {% include feature_row id="feature_row2"%}
 
