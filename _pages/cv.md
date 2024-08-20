@@ -25,13 +25,14 @@ header:
 </style>
 
 # Education 
-## University of Wisconsin - Madison  <i class="fa fa-solid fa-graduation-cap"></i>  <img align='left' src="/images/cv/uw-crest-color-web-digital.png" width="260" style="padding-left: 40px; padding-right: 80px; padding-top:15px; padding-bottom: 200px">
+## University of Wisconsin - Madison  <i class="fa fa-solid fa-graduation-cap"></i>  <img align='left' src="/images/cv/uw-crest-color-web-digital.png" width="260" style="padding-left: 40px; padding-right: 80px; padding-top:15px; padding-bottom: 220px">
 
 * <b>Ph.D. in Electrical and Computer Engineering</b>, *TBD*
 * <b>M.S. in Electrical and Computer Engineering</b>, *Summer 2024*
 * <b>B.S. in Mechanical Engineering</b>, *Fall 2021*
 
 #### Relavent Coursework
+* Linear Systems
 * Electromagnetic Design of AC Machines
 * Dynamics and Control of AC Drives
 * Redesign and Prototype Fabrication
@@ -42,6 +43,10 @@ header:
 <br clear="right"/>
 
 # Experience
+## Precision Mechatronics and Control Lab - [pmcl.me.wisc.edu](https://pmcl.me.wisc.edu/) <img align="left" src="../images/pmcl.png" width="250" style="padding-right: 50px; padding-bottom: 40px; padding-top: 20px">
+<b>Research Assistant</b>, <em>August 2024 - Present</em>
+<br clear="left"/>
+
 ## Severson Research Group - [severson.wempec.wisc.edu](https://severson.wempec.wisc.edu/) <img align="left" src="../images/wempec_logo.jpg" width="250" style="padding-right: 50px; padding-bottom: 15px; padding-top: 20px">
 <b>Research Assistant</b>, <em>September 2022 - June 2024</em>
 
