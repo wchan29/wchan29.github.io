@@ -1,5 +1,5 @@
 ---
-title: "Scaling of High-Speed Surface PM Bearingless Machines *(Accepted)*"
+title: "Scaling of High-Speed Surface PM Bearingless Machines"
 #link: https://ieeexplore.ieee.org/document/9449571
 collection: publications
 permalink: /publication/2021_IEEE_scaling_of_high_speed_bearingless_machine
