@@ -403,7 +403,7 @@ All in all, I am satisfied with the way how things turn out and the teamwork we 
 ## 7.1 CAD Files
 For those who are interested in the design, feel free to take a look at the CAD model in the Box link below. All models were created in SolidWorks.
 
-[Download](https://uwmadison.box.com/s/1lcbk6jrjjuikrx2ef6l84odsnrkmwar){: .btn .btn--info}
+[Download](https://github.com/wchan29/mini_IM){: .btn .btn--info}
 
 ## 7.2 Instructional Manual 
 <embed src="/files/portfolio/wempec_induction_3d/IM Instruction Manual.pdf#view=FitH" width="500" height="450" frameborder="0" type="application/pdf">
