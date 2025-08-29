@@ -44,15 +44,14 @@ header:
 
 # Experience
 
-## Motibera, Inc. [motibera.com](https://motibera.com) <img align="left" src="../images/cv/motibera.png" width="250" style="padding-right: 50px; padding-bottom: 40px; padding-top: 20px">
-<b>Motor Design Engineer Intern</b>, <em>May 2025 - Present</em>
-<br clear="left"/>
-
-
 ## Precision Mechatronics and Control Lab - [pmcl.me.wisc.edu](https://pmcl.me.wisc.edu/) <img align="left" src="../images/pmcl.png" width="250" style="padding-right: 50px; padding-bottom: 40px; padding-top: 20px">
 <b>Research Assistant</b>, <em>August 2024 - Present</em>
 
 Advisor: Lei Zhou
+<br clear="left"/>
+
+## Motibera, Inc. [motibera.com](https://motibera.com) <img align="left" src="../images/cv/motibera.png" width="250" style="padding-right: 50px; padding-bottom: 40px; padding-top: 20px">
+<b>Motor Design Engineer Intern</b>, <em>May 2025 - August 2025</em>
 <br clear="left"/>
 
 ## Severson Research Group - [severson.wempec.wisc.edu](https://severson.wempec.wisc.edu/) <img align="left" src="../images/wempec_logo.jpg" width="250" style="padding-right: 50px; padding-bottom: 15px; padding-top: 20px">
