@@ -13,13 +13,12 @@ intro:
   - excerpt: New projects to come!
 
 feature_row:
-
-# - url: https://github.com/wchan29/motor_winding_helper/tree/develop
-#   image_path: /images/gallery_cover/voltage_phasor_cover.JPG
-#   title: Motor Winding Helper
-#   excerpt: A small python project for plotting machine winding voltage phasor
-#   btn_class: btn--primary
-#   btn_label: "Read More"
+- #url: https://github.com/wchan29/motor_winding_helper/tree/develop
+  image_path: /images/gallery_cover/pcb_render.png
+  title: Overactuated PCB Axial Flux Motor
+  excerpt: Printed circuit board (PCB) axial flux machine with overactuation control. Controllable axial force in quadrants with injected d-axis current.
+  #btn_class: btn--primary
+  #btn_label: "Read More"
 
 feature_row2:
 - url: /portfolio/wempec_eturbo/
@@ -137,14 +136,12 @@ photo_gallery:
 
     
 </style>
-
 <!-- {% include feature_row id="intro" type="center"%} -->
-
-<!-- # Active Projects
+# Active Projects
 {: .text-center}
 <br/>
 
-{% include feature_row %} -->
+{% include feature_row %} 
 
 
 # Past Projects
