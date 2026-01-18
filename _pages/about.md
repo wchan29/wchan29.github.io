@@ -23,5 +23,41 @@ header:
 
  While I'm not doing research, writing Python scripts, or busy prototyping, you'll find me indulging in my other passions such as photography, hiking, building LEGOs, watching movies and Formula 1. At home, I also spend a lot of time with my feline friend, [Tofu](../images/tofu_cat/tofu2.jpg) :smile_cat:. 
 <br/>
-<!-- [Resume](/files/anson_resume_fall2023.pdf){: .btn .btn--primary .btn--x-large} -->
+
+[<i class="fa fa-light fa-download"></i>&nbsp; Resume](https://github.com/wchan29/anson_cv/blob/main/resume_anson.pdf){: .btn .btn--primary .btn--large}
+
+<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:2rem; width:100%; margin-top:0rem;">
+  <section>
+    <h2 style="border-bottom:none; padding-bottom:0.5rem; margin-bottom:0.5rem; margin-top:1rem;"> Education</h2>
+    <ul class="fa-ul" style="margin-left:1.5rem;">
+      <li style="margin-bottom:1rem;">
+        <span class="fa-li"><i class="fa fa-solid fa-graduation-cap"></i></span>
+        <div style="font-weight:600;">PhD, Electrical and Computer Engineering</div>
+        <div style="opacity:0.9; font-size:0.95em;">University of Wisconsin–Madison</div>
+      </li>
+      <li style="margin-bottom:1rem;">
+        <span class="fa-li"><i class="fa fa-solid fa-graduation-cap"></i></span>
+        <div style="font-weight:600;">MS, Electrical and Computer Engineering</div>
+        <div style="opacity:0.9; font-size:0.95em;">University of Wisconsin–Madison</div>
+      </li>
+      <li style="margin-bottom:1rem;">
+        <span class="fa-li"><i class="fa fa-solid fa-graduation-cap"></i></span>
+        <div style="font-weight:600;">BS, Mechanical Engineering</div>
+        <div style="opacity:0.9; font-size:0.95em;">University of Wisconsin–Madison</div>
+      </li>
+    </ul>
+  </section>
+  <section>
+    <h2 style="border-bottom:none; padding-bottom:0.5rem; margin-bottom:0rem; margin-top:1rem;"> Interests</h2>
+    <ul>
+      <li>Overactuated electric machine control</li>
+      <li>Magnetically levitated electric machines</li>
+      <li>Electromagnetic FE Optimization</li>
+    </ul>
+  </section>
+</div>
+
+
+
+
 
