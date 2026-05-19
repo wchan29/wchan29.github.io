@@ -5,7 +5,7 @@ collection: portfolio
 header: 
   overlay_color: #0a0a0a
   overlay_filter: rgba(240, 240, 240, 0.5)
-  overlay_image: /images/gallery_cover/Turbocharger_nasa.png
+  overlay_image: /images/covers/Turbocharger_nasa.png
   show_overlay_excerpt: true	
   caption: "Photo credit: **NASA**"
 

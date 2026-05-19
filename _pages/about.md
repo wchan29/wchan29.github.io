@@ -21,7 +21,7 @@ header:
 
  I am a researcher in Electrical and Computer Engineering at the University of Wisconsin–Madison in the [Precision Mechatronics and Control Lab](https://pmcl.me.wisc.edu/). I am currently researching magnetically levitated axial flux machines to enable overactuation control. From my past experience with the [Severson Group](https://elev.umn.edu/home) and [WEMPEC](https://wempec.wisc.edu/), I have built a strong background in prototyping and fabrication of electric machines used in energy systems.
 
- While I'm not doing research, writing Python scripts, or busy prototyping, you'll find me indulging in my other passions such as photography, hiking, building LEGOs, watching movies and Formula 1. At home, I also spend a lot of time with my feline friend, [Tofu](../images/tofu_cat/tofu2.jpg) :smile_cat:. 
+ While I'm not doing research, writing Python scripts, or busy prototyping, you'll find me indulging in my other passions such as photography, hiking, building LEGOs, watching movies and Formula 1. At home, I also spend a lot of time with my feline friend, [Tofu](../images/personal/tofu2.jpg) :smile_cat:. 
 <br/>
 
 [<i class="fa fa-light fa-download"></i>&nbsp; Resume](https://github.com/wchan29/anson_cv/blob/main/resume_anson.pdf){: .btn .btn--primary .btn--large}

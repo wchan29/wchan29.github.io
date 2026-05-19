@@ -9,7 +9,7 @@ redirect_from:
 header: 
   overlay_color: #0a0a0a
   overlay_filter: rgba(240, 240, 240, 0.4)
-  overlay_image: /images/portfolio/housing_front.JPG
+  overlay_image: /images/portfolio/wempec_additive_housing/housing_front.JPG
   actions:
     - label: "Download PDF"
       url: "https://github.com/wchan29/anson_cv/blob/main/resume_anson.pdf"
@@ -44,7 +44,7 @@ header:
 
 # Experience
 
-## Precision Mechatronics and Control Lab - [pmcl.me.wisc.edu](https://pmcl.me.wisc.edu/) <img align="left" src="../images/pmcl.png" width="250" style="padding-right: 50px; padding-bottom: 40px; padding-top: 20px">
+## Precision Mechatronics and Control Lab - [pmcl.me.wisc.edu](https://pmcl.me.wisc.edu/) <img align="left" src="../images/cv/pmcl.png" width="250" style="padding-right: 50px; padding-bottom: 40px; padding-top: 20px">
 <b>Research Assistant</b>, <em>August 2024 - Present</em>
 
 Advisor: Lei Zhou
@@ -54,7 +54,7 @@ Advisor: Lei Zhou
 <b>Motor Design Engineer Intern</b>, <em>May 2025 - August 2025</em>
 <br clear="left"/>
 
-## Severson Research Group - [severson.wempec.wisc.edu](https://severson.wempec.wisc.edu/) <img align="left" src="../images/wempec_logo.jpg" width="250" style="padding-right: 50px; padding-bottom: 15px; padding-top: 20px">
+## Severson Research Group - [severson.wempec.wisc.edu](https://severson.wempec.wisc.edu/) <img align="left" src="../images/cv/wempec_logo.jpg" width="250" style="padding-right: 50px; padding-bottom: 15px; padding-top: 20px">
 <b>Research Assistant</b>, <em>September 2022 - June 2024</em>
 
 ### Projects
@@ -63,13 +63,13 @@ Advisor: Lei Zhou
 
 <br clear="left"/>
 
-## Milwaukee Tool - [milwaukeetool.com](https://www.milwaukeetool.com/) <img align="left" src="../images/Milwaukee_Logo.png" width="250" style="padding-right: 50px; padding-bottom: 60px; padding-top: 60px">
+## Milwaukee Tool - [milwaukeetool.com](https://www.milwaukeetool.com/) <img align="left" src="../images/cv/Milwaukee_Logo.png" width="250" style="padding-right: 50px; padding-bottom: 60px; padding-top: 60px">
 <b>NPD Mechanical Design Engineer</b>, <em>January - August 2022</em>
 * Conducted FEA analysis on BLDC motors of different sizes and winding configurations, recommended optimal designs for product development using Pugh Matrix for informed and cost-effective solutions.
 * Assessed power tool performance requirements through the collection and analysis of motor thermal characteristics and power output data from competitor products.
 <br clear="left"/>
 
-## Wisconsin Electric Machines and Power Electronics Consortium <img align="left" src="../images/wempec_logo.jpg" width="250" style="padding-right: 50px; padding-bottom: 50px; padding-top: 50px"> - [wempec.wisc.edu](wempec.wisc.edu) 
+## Wisconsin Electric Machines and Power Electronics Consortium <img align="left" src="../images/cv/wempec_logo.jpg" width="250" style="padding-right: 50px; padding-bottom: 50px; padding-top: 50px"> - [wempec.wisc.edu](wempec.wisc.edu) 
 <b>Undergraduate Researcher & Lab Assistant</b>, <em>September 2019 – December 2021</em>
 
 I joined WEMPEC as a research lab assistant working directly under lab manager Kyle Hansen.
@@ -77,7 +77,7 @@ I was accountable for prototyping a new 10 N-m dynamometer setup and various lab
 <br clear="left"/>
 
 # Extracurricular
-## Wisconsin Racing Electric - [wisconsinracing.org](https://www.wisconsinracing.org/) <img align="left" src="../images/wisc_racing.png" width="250" style="padding-right:50px; padding-bottom: 50px; padding-top: 50px">
+## Wisconsin Racing Electric - [wisconsinracing.org](https://www.wisconsinracing.org/) <img align="left" src="../images/cv/wisc_racing.png" width="250" style="padding-right:50px; padding-bottom: 50px; padding-top: 50px">
 <b>Chassis Team Member</b>, <em>2018 - 2021</em>
 
 Competed in FSAE Electric 2019 in Lincoln, NE, received 2nd place in design category. I worked on various projects such as prototyping the enclosure for the TSAL warning light system using SLA 3D printing. Accumulated over 75+ hours of machining experience in manufacturing chassis steering and welding jig components.
@@ -86,7 +86,7 @@ Competed in FSAE Electric 2019 in Lincoln, NE, received 2nd place in design cate
 
 <br clear="left"/>
 
-## UW CoE Undergraduate Learning Center <img align="left" src="../images/uw_ulc.jpg" width="250" style="padding-right: 50px; padding-top:10px">
+## UW CoE Undergraduate Learning Center <img align="left" src="../images/cv/uw_ulc.jpg" width="250" style="padding-right: 50px; padding-top:10px">
 <b>Undergraduate Tutor</b>, <em>January - December 2019</em>
 
 I work as a student tutor under the Undergraduate Learning Center in College of Engineering. Provided group and one-on-one tutoring for 30+ undergraduate students each week.

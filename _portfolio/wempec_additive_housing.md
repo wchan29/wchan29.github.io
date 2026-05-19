@@ -8,7 +8,7 @@ header:
   image: image
   overlay_color: #0a0a0a
   overlay_filter: rgba(240, 240, 240, 0.5)
-  overlay_image: /images/gallery_cover/add_housing_cover.JPG
+  overlay_image: /images/covers/add_housing_cover.JPG
 classes: wide
 ---
 # Overview

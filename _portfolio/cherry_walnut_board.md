@@ -2,10 +2,10 @@
 title: "Cherry-Walnut Cutting Board"
 excerpt: "An edge-grain cutting board made out of cherry and walnut, a graduation gift for a friend."
 collection: portfolio
-image: '../images/portfolio/cherry_walnut_board/board_cover.jpeg'
+image: '../images/portfolio/maple_walnut_board/board_cover.jpeg'
 header: 
   overlay_filter: rgba(240, 240, 240, 0.5)
-  overlay_image: /images/gallery_cover/walnut_board_cover.jpeg
+  overlay_image: /images/covers/walnut_board_cover.jpeg
 
 toc: true
 toc_sticky: true

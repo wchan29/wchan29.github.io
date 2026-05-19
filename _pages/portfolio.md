@@ -14,7 +14,7 @@ intro:
 
 feature_row:
 - #url: https://github.com/wchan29/motor_winding_helper/tree/develop
-  image_path: /images/gallery_cover/pcb_render.png
+  image_path: /images/covers/pcb_render.png
   title: Overactuated PCB Axial Flux Motor
   excerpt: Printed circuit board (PCB) axial flux machine with overactuation control. Controllable axial force in quadrants with injected d-axis current.
   #btn_class: btn--primary
@@ -22,56 +22,56 @@ feature_row:
 
 feature_row2:
 - url: /portfolio/wempec_eturbo/
-  image_path: /images/gallery_cover/Turbocharger_nasa.png
+  image_path: /images/covers/Turbocharger_nasa.png
   title: Bearingless Machines (BSPM) for Aerial E-Turbocharger Application
   excerpt: Army Research Laboratory (ARL) and UW’s ERC & Severson Research Group to explore using bearingless motor technology to create a new generation of electric turbochargers for aerial vehicles.
   btn_class: btn--primary
   btn_label: "Read More"
 
 - url: /portfolio/wempec_additive_housing/
-  image_path: /images/gallery_cover/add_housing_cover.JPG
+  image_path: /images/covers/add_housing_cover.JPG
   title: AlSi10Mg Additively Manufactured Generator Housing with Integrated Cooling Channels
   excerpt: Department of Energy Project on High Efficiency Combined Heat and Power (CHP) Generation. 
   btn_class: btn--primary
   btn_label: "Read More"
 
 - url: https://emach.readthedocs.io/en/latest/index.html
-  image_path: /images/gallery_cover/eMach.png
+  image_path: /images/covers/eMach.png
   title: eMach
   excerpt: An open-source electric machine modeling, evaluation, and optimization framework developed in Python.
   btn_class: btn--primary
   btn_label: "Read More"
 
 - url: /portfolio/wempec_mini_dyne/
-  image_path: /images/gallery_cover/wempec_mini_dyne_front.jpg
+  image_path: /images/covers/wempec_mini_dyne_front.jpg
   title: 10N-m Mini Dynamometer Prototype
   excerpt: A small-scale dynamometer prototype used for characterizing small form factor rotatry electric machines. Capable of torque measurement of up to 10Nm and speed of 3000RPM.
   btn_class: btn--primary
   btn_label: "Read More"
 
 - url: /portfolio/wempec_linear_fixture/
-  image_path: /images/gallery_cover/wempec_linear_fixture_1.jpeg
+  image_path: /images/covers/wempec_linear_fixture_1.jpeg
   title: Linear Electric Machine Test Fixture
   excerpt: A test fixture designed and built for conducting force measurement on a linear electric machine with a HAAS CNC TM-1 mill.
   btn_class: btn--primary
   btn_label: "Read More"
 
 - url: /portfolio/wempec_induction_3d/
-  image_path: /images/gallery_cover/induction_machine_main.JPG
+  image_path: /images/covers/induction_machine_main.JPG
   title: Compact Induction Machine with 3D Printed Housing
   excerpt: UW-Madison Mechanical Engineering senior design project for the Grainger Engineering Design Innovation Lab.
   btn_class: btn--primary
   btn_label: "Read More"
 
 - url: /portfolio/stirling_engine/
-  image_path: /images/gallery_cover/stirling_engine_cover1.jpeg
+  image_path: /images/covers/stirling_engine_cover1.jpeg
   title: Stirling Engine Build and Redesign
   excerpt: A semester long project to build and redesign of a thermo-mechanical device (Stirling Engine).
   btn_class: btn--primary
   btn_label: "Read More"
 
 - url: /portfolio/cherry_walnut_board/
-  image_path: /images/gallery_cover/walnut_board_cover.jpeg
+  image_path: /images/covers/walnut_board_cover.jpeg
   title: Maple-Walnut Cutting Board
   excerpt: An edge-grain cutting board made out of cherry and walnut, a graduation gift for a friend.
   btn_class: btn--primary
@@ -88,7 +88,7 @@ photo_gallery:
 <style>
   #show_bg {
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
-    url('/images/gallery_cover/photo_gallery.png');
+    url('/images/covers/photo_gallery.png');
     width: 100%;
     height: 300px;
     background-size: cover;
