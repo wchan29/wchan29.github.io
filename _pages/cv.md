@@ -12,7 +12,7 @@ header:
   overlay_image: /images/portfolio/wempec_additive_housing/housing_front.JPG
   actions:
     - label: "Download PDF"
-      url: "https://github.com/wchan29/anson_cv/blob/main/resume_anson.pdf"
+      url: "https://github.com/wchan29/anson_cv/blob/main/cv/cv.pdf"
 
 
 ---
