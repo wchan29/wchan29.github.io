@@ -14,17 +14,24 @@ classes: wide
 ---
 
 # Overview
-This is an ongoing project for the U.S. Army Combat Capabilities Development Command’s Army Research Laboratory to explore using bearingless motor technology to create a new generation of electric turbochargers for aerial vehicles.
+This was a project for the U.S. Army Combat Capabilities Development Command’s Army Research Laboratory to explore using bearingless motor technology to create a new generation of electric turbochargers for aerial vehicles.
 
 [UW Article](https://engineering.wisc.edu/news/11-5m-army-funding-supports-aircraft-hybrid-electric-engine-research-at-uw-madison/){: .btn .btn--info .btn--large} 
 
 <br>
 
-# Current Responsibility
-- Facilitate the development of a multi-physics modeling framework for evaluating and optimizing BSPM electric
+# Responsibilities
+- Facilitated the development of a multi-physics modeling framework for evaluating and optimizing BSPM electric
 machines. Created Python scripts necessary to evaluate machine constants and coil inductances in JMAG.
 
-- Performing setup and characterization of a 4-DOF 8kW twin stators BSPM machine. Prepared engineering drawings
+- Performed setup and characterization of a 4-DOF 8kW twin stators BSPM machine. Prepared engineering drawings
 and fabricated components for dynamometer fixturing.
 
-- Experimentally validate BSPM FEA thermal models created in ANSYS Motor-CAD.
+- Experimentally validated BSPM FEA thermal models created in ANSYS Motor-CAD.
+
+<br>
+
+# Related Publication
+W. Chan, T. Noguchi, and E. L. Severson, "Scaling of High-Speed Surface PM Bearingless Machines," *2024 IEEE Energy Conversion Congress & Expo (ECCE)*, Phoenix, AZ, USA, 2024.
+
+[IEEE Xplore](https://ieeexplore.ieee.org/document/10861241){: .btn .btn--info .btn--large}

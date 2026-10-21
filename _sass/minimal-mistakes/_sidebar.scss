@@ -124,8 +124,8 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 36px;
-  height: 36px;
+  width: 64px; //36px
+  height: 64px; //36px
 
   @include breakpoint($large) {
     display: block;
@@ -137,7 +137,14 @@
     max-width: 175px;
     border-radius: 50%;
 
+    // fill the mobile avatar cell; the $large breakpoint below restores sidebar sizing
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+
     @include breakpoint($large) {
+      width: auto;
+      height: auto;
       padding: 5px;
       border: 1px solid $border-color;
     }
@@ -147,8 +154,9 @@
 .author__content {
   display: table-cell;
   vertical-align: top;
+  width: 100%; // fill the row so the Follow button sits flush right
   padding-left: 15px;
-  padding-right: 100px; //25px
+  padding-right: 25px; //100px
   line-height: 1;
 
   @include breakpoint($large) {

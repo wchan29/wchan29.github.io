@@ -1,0 +1,92 @@
+/* ==========================================================================
+   Table of contents (LoveIt-style: left rule, "|" markers, bold active item)
+   ========================================================================== */
+
+$toc-accent-color: #2d96bd;
+
+.toc {
+  background-color: transparent;
+  border: none;
+  border-left: 4px solid $border-color;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding-left: 0.8rem;
+
+  .nav__title {
+    margin: 0.5rem 0;
+    padding: 0;
+    color: $text-color;
+    font-size: $type-size-5;
+    text-transform: uppercase;
+    background: transparent;
+
+    i {
+      display: none;
+    }
+  }
+
+  // Scrollspy (gumshoe) marks the current item's <li> as .active
+  .active > a {
+    color: $toc-accent-color;
+    font-weight: bold;
+    background: transparent;
+
+    &::before {
+      color: darken($toc-accent-color, 20%);
+    }
+  }
+}
+
+.toc__menu {
+  font-size: $type-size-5;
+
+  @include breakpoint($large) {
+    font-size: $type-size-6;
+  }
+
+  // Subsections stay collapsed until their section is active (see footer/custom.html)
+  ul {
+    display: none;
+  }
+
+  li.has-active > ul {
+    display: block;
+  }
+
+  a {
+    padding: 0.15rem 0;
+    padding-left: 0.85rem;
+    text-indent: -0.85rem;
+    font-weight: normal;
+    border-bottom: none;
+
+    &::before {
+      content: "|";
+      margin-right: 0.5rem;
+      font-weight: bolder;
+      color: $toc-accent-color;
+    }
+
+    &:hover {
+      color: $toc-accent-color;
+    }
+  }
+
+  li ul > li a {
+    padding-left: 2.35rem;
+  }
+
+  li ul li ul > li a {
+    padding-left: 3.85rem;
+  }
+
+  li ul li ul li ul > li a {
+    padding-left: 5.35rem;
+  }
+
+  li ul li ul li ul li ul > li a,
+  li ul li ul li ul li ul li ul > li a {
+    padding-left: 6.85rem;
+  }
+}

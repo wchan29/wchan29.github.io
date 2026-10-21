@@ -251,11 +251,29 @@
         transform: scaleX(0) translate3d(0, 0, 0); // hide
       }
 
-      &:hover:before {
-        -webkit-transform: scaleX(1);
-        -ms-transform: scaleX(1);
-        transform: scaleX(1); // reveal
+      // bold on hover instead of the underline bar
+      text-align: center;
+
+      &:hover {
+        font-weight: bold;
       }
+
+      // invisible bold copy of the label (data-title, set in masthead.html)
+      // reserves the bold width so neighboring links don't shift on hover
+      &:after {
+        content: attr(data-title);
+        display: block;
+        height: 0;
+        overflow: hidden;
+        visibility: hidden;
+        font-weight: bold;
+      }
+
+      // &:hover:before {
+      //   -webkit-transform: scaleX(1);
+      //   -ms-transform: scaleX(1);
+      //   transform: scaleX(1); // reveal
+      // }
     }
   }
 

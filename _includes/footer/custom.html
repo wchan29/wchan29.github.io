@@ -1,3 +1,23 @@
 <!-- start custom footer snippets -->
 
+<script>
+  // TOC: expand only the branch containing the active heading (LoveIt-style).
+  // Gumshoe emits gumshoeActivate/gumshoeDeactivate on the TOC <li> as you scroll.
+  (function () {
+    function expandActiveBranch() {
+      var menu = document.querySelector(".toc__menu");
+      if (!menu) return;
+      menu.querySelectorAll("li.has-active").forEach(function (li) {
+        li.classList.remove("has-active");
+      });
+      var active = menu.querySelector("li.active");
+      for (var li = active; li && li !== menu; li = li.parentElement) {
+        if (li.tagName === "LI") li.classList.add("has-active");
+      }
+    }
+    document.addEventListener("gumshoeActivate", expandActiveBranch);
+    document.addEventListener("gumshoeDeactivate", expandActiveBranch);
+  })();
+</script>
+
 <!-- end custom footer snippets -->
